@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<time.h>
 int main(){
-    srand(time(NULL));//初始化随机数种子
+    srand(time(NULL)); //初始化随机数种子
     int player,computer,a=0,b=0;
     printf("*****猜拳小游戏*****\n");
     printf("石头=0,剪刀=1,布=2\n");
