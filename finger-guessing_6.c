@@ -6,7 +6,7 @@ int main(){
     int player,computer,a=0,b=0;
     printf("*****猜拳小游戏*****\n");
     printf("石头=0,剪刀=1,布=2\n");
-    while(a!=3&&b!=2){
+    while(a!=2&&b!=2){
         printf("请输入你的选择：");
         scanf("%d",&player);
         if (player>2||player<0){
