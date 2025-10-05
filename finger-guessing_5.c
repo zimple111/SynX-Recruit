@@ -42,7 +42,7 @@ int main(){
     }
     cheat:
         int player_cheat;
-        while(b!=3){
+        while(b !=3 ){
             printf("请输入你的选择：");
             scanf("%d",&player_cheat);
             if (player_cheat<0||player_cheat>2){
